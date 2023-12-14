@@ -1,4 +1,4 @@
-# remotecontrol
+# Remote Control
 
 Remote control for Samnsung TV, developed with Flutter.
 
@@ -18,3 +18,11 @@ Add in \android\app\src\debug\AndroidManifest.xml
     <uses-permission android:name="android.permission.TRANSMIT_IR" />
     <uses-permission android:name="android.permission.VIBRATE"/>
 ```
+
+## Build release
+
+```bash
+    flutter build apk --release
+```
+
+Output directory: \build\app\outputs\flutter-apk\app-release.apk
