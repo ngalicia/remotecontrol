@@ -2,6 +2,12 @@
 
 Remote control for Samnsung TV, developed with Flutter.
 
+## Screenshots
+
+- Running on Android
+
+<img src="https://github.com/ngalicia/remotecontrol/raw/main/img/1.png" width="360" height="800"/>
+
 ## Dependencies
 
 Add in pubspec.yaml
