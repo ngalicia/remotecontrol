@@ -27,6 +27,15 @@ Add in \android\app\src\debug\AndroidManifest.xml
 
 ## Build release
 
+Add in \android\app\src\main\AndroidManifest.xml
+
+```xml
+    <uses-permission android:name="android.permission.TRANSMIT_IR" />
+    <uses-permission android:name="android.permission.VIBRATE"/>
+```
+
+Execute:
+
 ```bash
     flutter build apk --release
 ```
